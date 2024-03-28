@@ -39,5 +39,17 @@ untilNum(5)
 const multiply = (num1, num2) => {
     let product = num1 * num2;
     return product
-  };
-  console.log(multiply(2, 4)); // return 8
+};
+console.log(multiply(2, 4)); // return 8
+
+
+// Abdullah - Question 6: add
+
+const add = (num1, num2) => {
+    let sum = num1 + num2;
+    return sum;
+}
+console.log(add(2, 4));
+
+
+
