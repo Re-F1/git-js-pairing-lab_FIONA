@@ -15,7 +15,8 @@ const multiplesOfThree = () => {
         }
     }
 }
-console.log(multiplesOfThree(100))
+console.log(multiplesOfThree(100));
+
 
 //Fiona - Question 3: multiplesOfThreeOrFive
 const multiplesOfThreeOrFive = () => {
@@ -36,6 +37,7 @@ const untilNum = (num) => {
 }
 untilNum(5)
 
+//Fiona - Question 5: multiply
 const multiply = (num1, num2) => {
     let product = num1 * num2;
     return product
@@ -44,7 +46,6 @@ console.log(multiply(2, 4)); // return 8
 
 
 // Abdullah - Question 6: add
-
 const add = (num1, num2) => {
     let sum = num1 + num2;
     return sum;
@@ -52,4 +53,12 @@ const add = (num1, num2) => {
 console.log(add(2, 4));
 
 
-
+//Fiona - Question 7:
+const isNegative = (num) => {
+    if (num <= 0) {
+      return true;
+   } else {
+    return false;
+    }
+  }
+  console.log(isNegative(3))
