@@ -70,6 +70,8 @@ const triangleArea = (num1, num2) => {
 }
 console.log(triangleArea(6, 8));
 
+
+
 const betweenTwentyAndFourty = (num) => {
     if (num > 20 && num < 40) {
     return true;
