@@ -70,12 +70,21 @@ const triangleArea = (num1, num2) => {
 }
 console.log(triangleArea(6, 8));
 
+// Fiona - Question 9: betweenTwentyAndFourty
+
 const betweenTwentyAndFourty = (num) => {
     if (num > 20 && num < 40) {
-    return true;
-  } else {
-    return false;
-  }
-  }
-  
-  console.log(betweenTwentyAndFourty(20))
+        return true;
+    } else {
+        return false;
+    }
+}
+console.log(betweenTwentyAndFourty(20))
+
+// Abdullah - Question 10: Largest
+
+const largest = (num1, num2, num3) => {
+    return Math.max(num1, num2, num3)
+}
+console.log(largest(4, 6, 8));
+
