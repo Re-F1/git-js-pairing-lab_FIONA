@@ -53,12 +53,19 @@ const add = (num1, num2) => {
 console.log(add(2, 4));
 
 
-//Fiona - Question 7:
+//Fiona - Question 7: isNegative
 const isNegative = (num) => {
     if (num <= 0) {
-      return true;
-   } else {
-    return false;
+        return true;
+    } else {
+        return false;
     }
-  }
-  console.log(isNegative(3))
+}
+console.log(isNegative(3))
+
+// Abdullah - Question 8 : triangleArea 
+const triangleArea = (num1, num2) => {
+    let area = num1 * num2 * 0.5;
+    return area;
+}
+console.log(triangleArea(6, 8));
